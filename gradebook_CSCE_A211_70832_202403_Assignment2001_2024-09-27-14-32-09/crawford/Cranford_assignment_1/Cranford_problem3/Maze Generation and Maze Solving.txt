@@ -1,0 +1,21 @@
+Q:1.Given a random start location, think of an algorithm that does not use recursion that would find its way to the exit S. Your algorithm 
+should be able to run on an arbitrary maze, and not be specific to the sample given above.Can your algorithm avoid going in circles? 
+Describe your algorithm.
+
+Answer: You can use a Depth-First Search (DFS) algorithm to traverse a maze. If coded correctly the algorithm will go all the way down the maze
+until it hits a wall. It will then backtrack to the last junction and repeat until it finds the exit. It of course logs where it has been to
+avoid repeating itself albiet it requires extensive memory storage based on the size of the maze.
+
+Example: 1 (entrance) > 2 (junction/branch) > 3 (junction/branch) > 4 (deadend) > 3 (junction/branch) > 5 (deadend) > rinse repeat
+
+Q:2.Think of a way to have a computer program generate a random maze. What are important criteria that a good maze should have? Describe how 
+your algorithm could possibly meet the criteria.
+
+Answer: You can create a maze also using DFS. Randomly pick a exit and entrance (You can do it manually or let the program do it)
+then have the program choose a wall to knock down until it gets to the exit. Afterwards have the program go back and block off paths
+so that there is only one path through the maze. I would make exceptions to the program stating that there always needs to be a minimum of 2
+walls around it (to avoid wide open areas of the maze like a maze garden) and would exempt the outer walls and that could be done via the X/Y
+axis is using a graph.
+
+
+

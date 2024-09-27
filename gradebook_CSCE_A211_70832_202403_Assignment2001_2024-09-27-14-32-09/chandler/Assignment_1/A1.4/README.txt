@@ -1,0 +1,1 @@
+To excecute this program, simply run A1.4.exe in the appropriate dirrectory. 

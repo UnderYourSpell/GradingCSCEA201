@@ -1,0 +1,1 @@
+To run this, simply run the command A1.2.exe in the correct dirrectory.

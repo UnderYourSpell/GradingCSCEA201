@@ -1,0 +1,38 @@
+Question 3
+Jayson Cristobal
+09.18.2024
+
+1.  
+
+PROBLEM: 
+Given a random start point, think of an algorithm that does not use recursion 
+that would find its way to the exit S.
+
+ALGORITHM:
+To navigate a maze without recursion, begin by creating a 2D array representing the maze, with each cell marked as 'X' for 
+walls, ' ' for open spaces, and 'S' for the exit. Initialize a boolean array to track visited cells and start from the given 
+position. Use a loop to explore the maze by checking each possible direction (right, down, left, up) from the current cell. 
+Ensure that the move is valid and not previously visited. If a valid move is found, update the current position and mark it as 
+visited. If no valid moves are possible, backtrack to the previous position in the path. Continue this process until the 
+exit 'S' is found or all potential paths are found. 
+
+2.  
+
+
+A good maze should adhere to several key criteria to be both engaging and functional. First, it must have only one, single 
+path, ensuring there is exactly one route from start to finish. This prevents multiple solutions and helps make the maze 
+solvable. With my algorithm the program will mark new valid paths and backtracks when no valid move is possible, ensuring only
+one path is taken. It is also crucial that the maze should allow for varieties of difficulty levels, allowing adjustments in 
+complexity to help cater to different skill levels and to provide some challenge to the user. I think with my algorithm, it can 
+be modified to include adjusted difficulty levels This can be done by creating more dead ends (harder) or less dead ends (easier) 
+or either by lessening or increasing the space.
+
+
+
+
+
+
+
+
+
+

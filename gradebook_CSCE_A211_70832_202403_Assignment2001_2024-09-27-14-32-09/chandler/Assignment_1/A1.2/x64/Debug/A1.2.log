@@ -1,0 +1,3 @@
+﻿  A1.2.cpp
+C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.2\A1.2.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  A1.2.vcxproj -> C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.2\x64\Debug\A1.2.exe

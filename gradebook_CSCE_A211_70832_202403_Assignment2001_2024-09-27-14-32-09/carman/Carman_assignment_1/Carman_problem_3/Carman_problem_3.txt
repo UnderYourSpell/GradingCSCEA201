@@ -1,0 +1,10 @@
+Part A
+First, I'll have the a while loop that runs until the we move to a part on the map that is s or exit.
+Inside of this loop I will use the right hand rule for escaping a maze and apply it to some if else logic, like if x is at such a location move to here, else if x is to the right continue forward, this way the system should always have its "hand" on the right side of the maze and should never get stuck in a loop. While it might not be the most efficent it should eventually escape the maze. This method is straightforward and doesn't require any recursion or backtracking, just consistent movement and direction changes based on wall contact.
+
+
+
+Part B
+I think every maze should have at least one path from any point in the maze to any other point, ensuring that the maze is fully navigable. I think a good maze typically avoids loops, I mean that as there should only be one unique path between any two points. A normal maze usally has a mix of long corridors, and dead ends. A maze should also have one starting point and one exit.
+
+First, I'll have to create the map for the maze to be placed on, we probably make a 2d array. we could write a simple loop to fill the outer edges with walls or (x) and then have another loop place a random S or exit on one of those walls that were just made, it will probably need some logic to make sure S isn't in a corner and thus makes the maze impossible. we can then make another loop to make a random path from the exit and generate from there either making it so it doesn't go in circles or generate a starting path and make branches from there using loops. This way the map should always be different when loaded. Once its done being made we could randomly place the starting location but that could lead to the spawning location being right next to the exit. we could also add a starting location when first generation and make a path from start to finish and branch fro there instead. Doing it this way should meet my criteria of a good maze.

@@ -1,0 +1,15 @@
+A) A basic algorithim would be to "keep your right hand on the wall" so to speak. You would accomplish this by having a series of options: 
+1: If at exit, win
+2: else if possible, turn and go right 
+3: else if possible go straight 
+4: else if possible turn and go left
+5: else turn around
+
+
+B) Some important criteria are:
+
+No closed off sections
+Is solvable
+Has an exit on a non self contained wall
+
+The algorithm uses the wall itself to solve the maze, so it needs the walls to be connected to the exit.

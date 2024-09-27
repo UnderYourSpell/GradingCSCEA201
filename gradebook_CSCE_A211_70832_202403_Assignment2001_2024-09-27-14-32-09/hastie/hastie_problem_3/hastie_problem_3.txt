@@ -1,0 +1,17 @@
+1.	Given a random start location, 
+think of an algorithm that does not use recursion that would find its way to the exit S.
+Your algorithm should be able to run on an arbitrary maze,
+and not be specific to the sample given above.
+Can your algorithm avoid going in circles? 
+Describe your algorithm.
+
+I could utilize a simple algorithm that follows the left wall until it finds the exit.
+
+2.	Think of a way to have a computer program generate a random maze.
+What are important criteria that a good maze should have?
+Describe how your algorithm could possibly meet the criteria.
+
+One important piece of criteria that really defines a maze is a start point and a finish,
+where both points are connected by a left wall and a right wall.
+so my algorithm would simply generate a start on one side and the finish on oposite or adjacent sides of a square area,
+then i would have a left and right wall connect to those points. 

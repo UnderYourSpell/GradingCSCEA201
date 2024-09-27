@@ -1,0 +1,5 @@
+﻿  A1.4.cpp
+C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.4\A1.4.cpp(9,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.4\A1.4.cpp(9,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.4\A1.4.cpp(27,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  A1.4.vcxproj -> C:\Users\Kavi\source\CompProgam2\Assignments\Assignment_1\A1.4\x64\Debug\A1.4.exe

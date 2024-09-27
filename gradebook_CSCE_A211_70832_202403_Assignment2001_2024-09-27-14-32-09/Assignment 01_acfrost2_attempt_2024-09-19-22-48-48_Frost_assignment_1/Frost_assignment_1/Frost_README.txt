@@ -1,0 +1,3 @@
+For problem 1, you have to use the command prompt and enter a command to put the enrollments.txt file into the console of Frost_problem_1.cpp. 
+For problem 2, please follow the instructions in the console. There aren't any grievous consequences if you don't, but the house will get mad at you!!!
+For problem 4, you have to run the program. Because test code is used, there is no need for the user to input anything.
